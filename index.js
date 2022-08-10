@@ -1,6 +1,8 @@
+/* eslint-disable import/prefer-default-export */
+
 // Imported modules
-import { Book } from "./modules/book.js";
-import { Store } from "./modules/storage.js";
+import Book from './modules/book.js';
+import Store from './modules/storage.js';
 
 // Initialize variables to add books to local Storage
 const addBookBtn = document.querySelector('.add-book-btn');
