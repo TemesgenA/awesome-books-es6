@@ -9,6 +9,11 @@ body {
   font-family: 'Brush Script MT', cursive;
 }
 
+.time {
+  text-align: right;
+  margin-right: 5%;
+}
+
 section {
   padding: 15px;
 }

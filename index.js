@@ -3,6 +3,7 @@
 // Imported modules
 import Book from './modules/book.js';
 import Store from './modules/storage.js';
+import * as time from './modules/time.js';
 
 // Initialize variables to add books to local Storage
 const addBookBtn = document.querySelector('.add-book-btn');
@@ -13,6 +14,9 @@ const contactSection = document.querySelector('#contact-section');
 const listNavLink = document.querySelector('.list-nav-link');
 const addNavLink = document.querySelector('.add-nav-link');
 const contactNavLink = document.querySelector('.contact-nav-link');
+
+// Time
+time.getTime();
 
 // Class to display books
 class UI {
